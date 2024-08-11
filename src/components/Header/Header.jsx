@@ -11,7 +11,7 @@ const Header = () => {
           Muhammad Sohaib
         </h1>
         <p className="text-xl sm:text-2xl mt-2 text-gray-600 dark:text-gray-300">
-          Next JS Developer
+          Software Engineer
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4 mt-4">
           <Link href="tel:+92-306-0088-896">

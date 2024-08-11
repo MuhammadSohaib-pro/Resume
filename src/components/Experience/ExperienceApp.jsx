@@ -1,14 +1,14 @@
 import React from "react";
-import { experienceList } from "@/lib/utils";
+import { experienceListApp } from "@/lib/utils";
 
-const Experience = () => {
+const ExperienceApp = () => {
   return (
     <>
       <section className="mt-8">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-4 border-b-2 pb-2 border-gray-300 dark:border-gray-700">
           Professional Experience
         </h2>
-        {experienceList.map((item, index) => {
+        {experienceListApp.map((item, index) => {
           return (
             <div key={index} className="mb-4">
               <div className="flex flex-wrap justify-between items-center mb-3">
@@ -41,4 +41,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default ExperienceApp;

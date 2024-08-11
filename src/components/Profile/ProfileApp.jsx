@@ -1,6 +1,6 @@
 import React from "react";
 
-const Profile = () => {
+const ProfileApp = () => {
   return (
     <>
       <section>
@@ -8,17 +8,17 @@ const Profile = () => {
           Profile
         </h2>
         <p className="leading-relaxed text-gray-700 dark:text-gray-300">
-          Experienced Software Engineer specializing in Next.js with a year of
+          Experienced Software Engineer specializing in Flutter with a year of
           hands-on experience. Skilled in crafting responsive user interfaces
           and leading from the front to deliver impactful projects. Proficient
           in communication and teamwork skills, collaborating with
           cross-functional teams to achieve project goals. Committed to
           continuous learning and innovation, eager to contribute to teams and
-          push the boundaries of Next.js development.
+          push the boundaries of Flutter development.
         </p>
       </section>
     </>
   );
 };
 
-export default Profile;
+export default ProfileApp;
